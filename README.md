@@ -1,2 +1,2 @@
-# Taskify
-A task-list page
+# Todolify
+A todo-list page
