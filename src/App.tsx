@@ -139,7 +139,7 @@ const CTodoItem = ({ todo, todoList, setTodoList }: ITodoItemProps) => {
 		<>
 			<p
 				className={`flex items-center justify-between gap-1 w-52 sm:min-w-[25em] p-2 bg-slate-300 rounded-md ${
-					todo.completed ? ' dark:bg-green-700 dark:border-b-4 dark:border-green-900 ' : ' dark:bg-slate-700 dark:border-b-slate-800 dark:border-b-4 '
+					todo.completed ? ' bg-green-500 dark:bg-green-700 border-b-4 border-green-900  dark:border-green-900 ' : ' dark:bg-slate-700 border-b-4 border-b-slate-500 dark:border-b-slate-800 '
 				}`}
 			>
 				<span ref={editableTaskRef} className="flex-grow text-left w-min">
